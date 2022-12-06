@@ -1,0 +1,13 @@
+Bootcamp: Kotlin Experience
+Mentores: Venilton FalvoJr
+	
+	Conhecendo o Kotlin e Sua Documentação Oficial
+		interoperável com Java e outras linguagens
+		oferece muitas maneiras de reutilizar codigos
+		pq o kotlin?
+			Consisa (pouco codigo, menos verbosa)
+			Segura 
+			Expressiva
+			Interoperável
+			Multiplataforma
+			
