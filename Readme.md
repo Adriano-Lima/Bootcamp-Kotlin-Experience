@@ -33,7 +33,7 @@ Bootcamp Kotlin Experience </h1>
 
   - [X] Conhecendo o Kotlin e Sua Documentação Oficial
 
-  - [ ] Introdução Prática à Linguagem de Programação Kotlin
+  - [x] Introdução Prática à Linguagem de Programação Kotlin
   
   - [ ] Estruturas de Controle de Fluxo e Coleções em Kotlin
 
