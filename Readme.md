@@ -35,7 +35,7 @@ Bootcamp Kotlin Experience </h1>
 
   - [x] Introdução Prática à Linguagem de Programação Kotlin
   
-  - [ ] Estruturas de Controle de Fluxo e Coleções em Kotlin
+  - [x] Estruturas de Controle de Fluxo e Coleções em Kotlin
 
   - [ ] Orientação a Objetos e Tipos de Classes na Prática com Kotlin
 

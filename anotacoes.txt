@@ -10,4 +10,93 @@ Mentores: Venilton FalvoJr
 			Expressiva
 			Interoperável
 			Multiplataforma
+		
+		funcoes
+			fun nome(nomeVariavel:Tipo):TipoRetorno{}	
+				se nao for retornar nada pode-se colocar :Unit ou simplesmente nada 
+			podo-se criar uma hierarquia de funcoes, ou seja, uma funcao dentro de outra	
+
+			tipo vararg -> a funcao pode receber uma quantidade indefinida de parametros de um dado tipo, exemplo:
+				fun printAll(vararg messages:String){
+					for (m in messagens) println(m)
+				}
+				chamada: printAll("Ola","Hello","Salut","Hola")
+
+		Variável
+			var -> pode variar o valor (reatribuir valor)
+			val -> é uma constante, valor imultável		
+
+		Null Safety Nulidade
+			var nome:String? = "teste"
+				com a ? essa variavel pode receber null
+
+		Classes
+			class Customer
+			class Contact(val id: Int, var email: String)
+			fun main() {
+			    val customer = Customer() // nao precisa dar new			    
+			    val contact = Contact(1, "mary@gmail.com")
+			    println(contact.id)
+			    contact.email = "jane@gmail.com" 
+			}
+
+		
+				
+
+	
+	Estruturas de Controle de Fluxo e Coleções em Kotlin
+		https://play.kotlinlang.org/byExample/02_control_flow/01_When
+		when -> equivalente ao switch no java
+		
+		ex:
+		fun cases(obj: Any) { // Any pode ser qualquer tipo, equivalente ao Object no Java                           
+		    when (obj) {                       
+		        1 -> println("One")      
+		        "Hello" -> println("Greeting")
+		        is Long -> println("Long")
+		        !is String -> println("Not a string")
+		        else -> println("Unknown")
+		    }   
+		}
+
+		Loops:
+			https://play.kotlinlang.org/byExample/02_control_flow/02_Loops
+			for each, while, e do while idem Java
+
+		Range:
+			https://play.kotlinlang.org/byExample/02_control_flow/03_Ranges
+			for(i in 0..3){print(i)} // imprime de 0 a 3 incluindo o 3
+			for(i in 0 until 3) // nao imprime o 3
+			for(i in 2..8 step 2) // indo de 2 em 2
+			for (i in 3 downTo 0) // decrescente
+
+			for (c in 'a'..'d') // tbm suporta caracteres
+
+			if (x in 1..5){print("x esta no intervalo de 1 a 5")} // usando intervalo em uma condicao		
+			
+		Verificações de Igualdade == e ===
+			== comparacao estrutural
+			=== verifica se apontam pro mesmo endereco de memoria (comparacao refencial)
+
+			val authors = setOf("Shakespeare", "Hemingway", "Twain")
+			val writers = setOf("Twain", "Shakespeare", "Hemingway")
+			println(authors == writers)   // true
+			println(authors === writers)  // false
+
+		Conditional Expression
+			Kotlin nao tem o ? (operador ternario)
+			fun max(a: Int, b: Int) = if (a > b) a else b 	
+
+		List
+			val minhaLista: MutableList<Int> = mutableListOf(1, 2, 3) //lista multável, ou seja, posso add, remover, etc
+			val sudoers: List<Int> = listOf(1,2,3) // lista imutável, nao posso dar add ..., só leitura
+
+		Set
+			val openIssues: MutableSet<String> = mutableSetOf("uniqueDescr1", "uniqueDescr2", "uniqueDescr3")
+			ou 
+			val openIssues: Set<String> = setOf("uniqueDescr1", "uniqueDescr2", "uniqueDescr3")
+
+		Map (dicionario)
+			https://play.kotlinlang.org/byExample/05_Collections/03_Map		  	
+
 			
