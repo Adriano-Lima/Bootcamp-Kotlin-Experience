@@ -140,6 +140,41 @@ Mentores: Venilton FalvoJr
 		Sealed Classes
 			somente classes do mesmo pacote podem extender
 
-				
+		
+		Funcoes de escopo
+			let
+				usa o "it" como objeto que a chamou
+				str?.let{print("")} //só executa o let se str nao for null
+			run
+				nao precisa usar o "it" para chamar metodos, usa o this
 
+			with
+				class Configuration(var host: String, var port: Int) 
+				fun main() {
+				    val configuration = Configuration(host = "127.0.0.1", port = 9000) 
+				    with(configuration) {
+				        println("$host:$port")
+				    }
+				    // instead of:
+				    println("${configuration.host}:${configuration.port}")    
+				}	
+
+			apply
+				pode ser utilizado para atualizar valores de uma estrutura 
+
+			also
+				semelhante ao apply, mas passando o "it"
+
+			
+		Infix Functions	
+
+
+		Lambda Functions
+			val upperCase2: (String) -> String = { str -> str.uppercase() }	
+			ou
+			val upperCase5: (String) -> String = { it.uppercase() } 
+			ou			
+			val upperCase6: (String) -> String = String::uppercase		
+			
+			
 

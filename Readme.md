@@ -39,7 +39,7 @@ Bootcamp Kotlin Experience </h1>
 
   - [x] Orientação a Objetos e Tipos de Classes na Prática com Kotlin
 
-  - [ ] O Poder das Funções em Kotlin
+  - [x] O Poder das Funções em Kotlin
  
   - [ ] Abstraindo Formações da DIO Usando Orientação a Objetos com Kotlin
 
