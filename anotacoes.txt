@@ -100,3 +100,46 @@ Mentores: Venilton FalvoJr
 			https://play.kotlinlang.org/byExample/05_Collections/03_Map		  	
 
 			
+
+	Orientação a Objetos e Tipos de Classes na Prática com Kotlin
+		Abstração
+			Habilidade de concentrar-se nos aspectos essenciais de um domínio, ignorando características menos importantes ou acidentais.
+
+		encapsulamento
+			esconder a implementacao dos objetos, criando interfaces mais concisas e fáceis de usar
+
+		herança
+			permite que as classes compartilhem suas caracteristicas e comportamentos entre si
+
+		Polimorfismo
+			capacidade de um objeto ser referenciado de formas diferentes, respeitando a hierarquia
+
+		no Kotlin
+			herança
+				classe pai:
+					open class Dog{
+						open fun nome(){}
+					}
+				classe filha:
+					class Caramelo: Dog(){
+						override fun nome(){} //para sobrescrever o metodo da classe pai
+					}		
+
+		Data classes				
+			ja traz uma serie de funcoes/estruturas prontas
+			equals, hashcode, get, set, toString
+			ex: data class User(){}
+
+		Enum Classes
+			representam constantes como direcoes, estados
+			limitando a valores especificos
+			
+			enum class State{IDLE, RUNNING, FINISHED}
+			val state = State.RUNNING
+
+		Sealed Classes
+			somente classes do mesmo pacote podem extender
+
+				
+
+

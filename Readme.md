@@ -37,7 +37,7 @@ Bootcamp Kotlin Experience </h1>
   
   - [x] Estruturas de Controle de Fluxo e Coleções em Kotlin
 
-  - [ ] Orientação a Objetos e Tipos de Classes na Prática com Kotlin
+  - [x] Orientação a Objetos e Tipos de Classes na Prática com Kotlin
 
   - [ ] O Poder das Funções em Kotlin
  
