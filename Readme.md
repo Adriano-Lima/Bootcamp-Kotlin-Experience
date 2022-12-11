@@ -41,7 +41,7 @@ Bootcamp Kotlin Experience </h1>
 
   - [x] O Poder das Funções em Kotlin
  
-  - [ ] Abstraindo Formações da DIO Usando Orientação a Objetos com Kotlin
+  - [x] Abstraindo Formações da DIO Usando Orientação a Objetos com Kotlin
 
   <br/>
 
