@@ -47,15 +47,15 @@ Bootcamp Kotlin Experience </h1>
 
 ## #3 Refinando Sua Técnica Com Desafios de Código em Kotlin
 
-  - [ ] Suas Primeiras Condições em Kotlin
+  - [x] Suas Primeiras Condições em Kotlin
 
-  - [ ] Avançando Tecnicamente Com a Expressão When
+  - [x] Avançando Tecnicamente Com a Expressão When
   
-  - [ ] Explorando Mapas, Loops e Regras com Kotlin
+  - [x] Explorando Mapas, Loops e Regras com Kotlin
 
-  - [ ] Utilizando a Keyword Object com Orientação a Objetos (OO)
+  - [x] Utilizando a Keyword Object com Orientação a Objetos (OO)
 
-  - [ ] Orientação a Objetos (OO) Visando Soluções Mais Idiomáticas
+  - [x] Orientação a Objetos (OO) Visando Soluções Mais Idiomáticas
 
   <br/>  
 
