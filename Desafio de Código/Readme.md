@@ -31,7 +31,7 @@ Para cada arquivo da entrada, terá um arquivo de saída. E como mencionado no D
 |         8           |       APR         |
 |         2           |       REP         |
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Kotlin-Experience/blob/main/Desafio%20de%20C%C3%B3digo/desafios-kotlin/src/main/kotlin/desafio/mediafinalaluno/Main.kt)
 
 -----
 
@@ -50,7 +50,7 @@ As saídas serão as mesmas datas da entrada porém, com o mês escrito por exte
 |       25/12/2019    | 25 de Dezembro de 2019       |
 |       02/02/2020    | 02 de Fevereiro de 2020      |
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Kotlin-Experience/blob/main/Desafio%20de%20C%C3%B3digo/desafios-kotlin/src/main/kotlin/desafio/dataporextenso/Main.kt)
 
 -----
 
@@ -79,7 +79,7 @@ Você deverá imprimir o numeral romano convertido para um número inteiro.
 |       "II"          |       2           |
 |       "MCII"        |       1102        |
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Kotlin-Experience/blob/main/Desafio%20de%20C%C3%B3digo/desafios-kotlin/src/main/kotlin/desafio/numeralromano/Main.kt)
 
 -----
 
@@ -109,7 +109,7 @@ Para cada arquivo da entrada, terá um arquivo de saída. E como mencionado no D
 |        250          |                    |
 
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Kotlin-Experience/blob/main/Desafio%20de%20C%C3%B3digo/desafios-kotlin/src/main/kotlin/desafio/calculosalarial/Main.kt)
 
 -----
 
@@ -136,4 +136,4 @@ A saída consiste em retornar o número de anos necessários para que a populaç
 |       200000         |                  |
 
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Kotlin-Experience/blob/main/Desafio%20de%20C%C3%B3digo/desafios-kotlin/src/main/kotlin/desafio/taxacrescimento/Main.kt)
