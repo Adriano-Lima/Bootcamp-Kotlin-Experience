@@ -6,10 +6,7 @@ fun main() {
         if (entrada.count { it == '/' } == 2) {
             val (dia, mes, ano) = entrada.split("/")
             val mesPorExtenso = gerarMesPorExtenso(mes)
-            if (mesPorExtenso != "Mês Inválido!")
-                println("$dia de $mesPorExtenso de $ano")
-            else
-                println("Mês Inválido!")
+            if (mesPorExtenso != "Mês Inválido!") println("$dia de $mesPorExtenso de $ano") else println("Data Inválida!")
         } else {
             println("Entrada inválida")
         }
